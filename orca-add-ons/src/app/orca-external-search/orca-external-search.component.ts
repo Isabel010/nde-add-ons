@@ -13,6 +13,13 @@ export class OrcaExternalSearchComponent implements OnInit {
   // Injected by the Primo NDE host — gives this component access to the parent slot's context
   @Input() hostComponent!: any;
 
+  // NUEVO: controla si el menú desplegable está abierto o cerrado
+  public isOpen = false;
+
+  toggleMenu(): void {
+    this.isOpen = !this.isOpen;
+  }
+
   // Merged result of defaults and institution-supplied MODULE_PARAMETERS config
   public params: any;
 
