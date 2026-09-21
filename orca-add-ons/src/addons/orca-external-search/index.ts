@@ -5,6 +5,6 @@ export const orcaExternalSearchProfile: AddonRuntimeProfile = {
   key: 'orca-external-search',
   buildName: 'orca-external-search',
   selectorComponentMap: new Map<string, any>([
-    ['nde-search-filters-side-nav-before', OrcaExternalSearchComponent]
+    ['nde-search-bar-filters-before', OrcaExternalSearchComponent]
   ])
 };
