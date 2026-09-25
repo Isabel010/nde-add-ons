@@ -19,10 +19,21 @@
 .external-search-trigger:hover {
   background: rgba(0, 0, 0, 0.05);
 }
+
 .external-search-icon {
-  font-family: 'Material Symbols Outlined', 'Material Symbols Rounded', sans-serif;
+  font-family: 'Material Symbols Outlined';
+  font-weight: normal;
+  font-style: normal;
   font-size: 20px;
+  display: inline-block;
   line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  -webkit-font-feature-settings: 'liga';
+  -webkit-font-smoothing: antialiased;
 }
 
 .external-search-menu {
